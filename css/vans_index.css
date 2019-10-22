@@ -1,0 +1,119 @@
+
+#context{
+  margin:0 auto;
+  width:100%;
+}
+/*第二层*/
+#main{
+  width:1440px;
+  margin:0 auto;
+}
+#banner{
+    width:1440px;
+    overflow:hidden;
+    position:relative;
+  }
+  #ul-imgs{
+    list-style:none;
+  }
+  #ul-imgs.transition{
+    transition:all .5s linear;
+  }
+#ul-imgs li{
+    width:1440px;
+    float:left;
+}
+#ul-imgs img{
+    width:1440px;
+  }
+  #ul-idxs{
+    width:100px;
+    margin:0 auto;
+    list-style:none;
+    position:absolute;
+    bottom:25px;
+    left:50%;
+    margin-left:-50px;
+  }
+  #ul-idxs>li{
+    float:left;
+    width:10px; height:10px;
+    background-color:#fff;
+    border-radius:5px;
+    margin:0 5px;
+    cursor:pointer;
+  }
+  #ul-idxs>li.active{
+    background-color:#000;
+  }
+  #btn-left,#btn-right{
+    width:60px;
+    height:100%;
+    position:absolute;
+    top:0;
+    background-repeat:no-repeat;
+    background-position:center;
+    cursor:pointer;
+  }
+  #btn-left{
+    left:20px;
+    background-image:url(../img/left_ar.png);
+  }
+  #btn-right{
+    right:20px;
+    background-image:url(../img/right_ar.png);
+  }
+  #btn-left:hover,#btn-right:hover{
+    background-size:40px 70px;
+  }
+/*设置宽度*/
+ @media screen and (min-width: 1200px) { 
+    .container{ 
+    max-width: 1475px; 
+    } 
+    }  
+ /*图片的过渡*/   
+.picture{
+    transition:all 1s;
+}
+.picture:hover{
+    transform:scale(1.1);
+}
+
+
+/*第三层图片宽度*/
+  #three_pic{
+    width: 1500px;
+    margin: 0 auto;
+}  
+
+
+/* 第四层 */
+/* 图片过渡溢出处理 */
+.picture_overflow{
+    overflow:hidden;
+}
+.my_width{
+    width:460px;
+    height:460px;
+}
+
+/* 设置图片的大小 */
+.w_width{
+    width:38%;
+}
+
+.p4_width{
+    width:710px;
+    
+}
+/* 第五层 */
+.width_1500{
+  width:1550px;
+ 
+}
+
+
+
+
+

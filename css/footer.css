@@ -1,0 +1,58 @@
+/*第三层图片的悬浮效果*/
+.width_picture{
+    width:710px;
+}
+.my_p4_font{
+    color:#000;
+}
+.my_p4{
+    transition:all 0.5s;
+}
+.my_p4:hover{
+    text-decoration:none;
+    background-color:#000 !important;
+}
+.my_p4:hover p {
+    color:#fff;  
+}
+.my_bg{
+    background-color:#1c1c1c;
+  
+} 
+.font-color{
+    color:#589BC6;
+}
+
+
+/*设置”帮助“悬浮颜色*/
+
+ .hover_a li a:hover{
+     color:red;
+} 
+
+/*设置图标大小*/
+ .my_tubiao{
+    width:40px;
+    height:40px;
+    background-color:#666;
+} 
+/*设置小图标悬浮颜色*/
+.weixin:hover{
+    background-color:green;
+}
+.NICE1:hover{
+    background-color:rgb(211, 211, 104)
+}
+.tencent:hover{
+    background-color:#21b1ff;
+}
+.sina:hover{
+    background-color:red;
+}
+.instagram:hover{
+    background-color:purple;
+} 
+/*下拉菜单背景颜色*/
+ .chinese_bg{
+    background-color:#64686b;
+} 

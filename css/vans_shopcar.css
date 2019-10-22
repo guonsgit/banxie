@@ -1,0 +1,214 @@
+/*第二层*/
+/*设置第二层高度及背景颜色*/
+
+.shopcar{
+    width:100%;
+    height:340px;
+    background-color:#efefef;
+    text-align:center;
+    margin-top:-48px;
+    /* display:none;  */
+}
+/*设置"你可以查看更多..."字体大小及颜色*/
+.text_small{
+    font-size:14px;
+    color:#666;
+    position:relative;
+}
+/*设置为行内块*/
+.my_look{
+    display:block;
+}
+/*设置"选购商品"的样式*/
+.my_look1{
+    background-color:#C9192E;
+    color:#fff;
+    padding:10px 40px;
+}
+/*设置"查看订单"的样式*/
+.my_look2{
+    background-color:#000;
+    color:#fff;
+    padding:10px 40px;
+}
+/*设置"选购商品"悬浮后的背景颜色*/
+.my_look1:hover{
+    background-color:#000;
+}
+/*设置"抱歉..."字体大小*/
+.shopcar .sorry_txt{
+    margin-top:80px;
+    font-size:30px;
+    font-weight:bold;
+}
+/*设置黑方块样式*/
+.shopcar .square{
+     width:80px;
+     height:80px;
+     background-color:#000;
+     transform: rotate(45deg);
+     position:absolute;
+     left:750px; 
+}
+/*设置“猜你喜欢”样式*/
+.shopcar .like{
+    color:#fff;
+    margin:0 auto;
+    margin-top:-30px;
+    position:absolute;
+    left:760px;
+    top:522px;
+}
+/*设置方块上边距*/
+.square_1{
+    margin-top:65px;
+}
+/**/
+.picture_1{
+    width:100%;
+}
+ /*设置第二层ul li*/
+ .foot_pic{
+     display:flex;
+     list-style:none;
+     margin-top:30px;
+ }
+ .foot_pic li{
+     width:300px;
+     margin-bottom:15px;
+     margin-left:20px;
+ }
+.foot_pic li img{
+    width:100%;
+}
+/*设置悬浮颜色，字体*/
+.foot_pic a{
+    color: #64686b;
+    font-weight:bold;
+}
+.foot_pic a:hover{
+    color:#c8192e;
+}
+.foot_pic span{
+    color:#c8192e;
+    font-size:16px;
+    font-weight:bold;
+}
+
+
+
+
+.shoppingcar{
+    margin-top:30px;
+    background:#f1f2ed;
+}
+.shoppingcar .title h2{
+    margin:0 auto;
+    width:180px;
+    font-weight: bolder;
+    margin-bottom:50px;
+}
+.shoppingcar table{
+    width:1200px;
+    margin:0 auto;
+    color:#666;
+}
+.shoppingcar table thead tr th{
+    border:1px solid #666;
+    font-size:20px;
+    text-align:center;
+    width:200px;
+}
+
+.shoppingcar tbody tr td:first-child{
+    font-size:18px;
+    font-weight: bolder;
+}
+.shoppingcar tr td{
+    border:1px solid #ccc;
+    width:200px;
+   
+}
+
+.shoppingcar .img_width{
+    width:100px;
+    height:100px;
+    background:#fff;
+    float:left;
+}
+.shoppingcar .img_width img{
+    height:100%;
+}
+.shopppingcar .size{
+    float:left;
+}
+.shoppingcar h6,.black{
+   font-weight:bolder;
+   margin:8px 20px;
+}
+.shoppingcar .bianji a{
+    color: #589BC6;
+    font-weight: bolder;
+    margin-left:20px;
+}
+
+.shoppingcar .count div{
+    width:100px;
+    margin:0 auto;
+}
+.shoppingcar tbody:first-child{
+    text-align: center;
+}
+.shoppingcar tbody tr:last-child{
+    text-align:right;
+    
+}
+.shoppingcar .count button{
+    width:30px;
+    height:30px;
+}
+.shoppingcar .count input{
+   width:30px;
+   height:30px;
+}
+.shoppingcar .price{
+    font-weight: bolder;
+}
+.shoppingcar .zongji div{
+    color:#c8192e;
+    font-weight: bolder;
+}
+.shoppingcar .caozuo{
+    font-weight:bolder;
+
+}
+.shoppingcar .caozuo a{
+    color:#589BC6;
+}
+
+.shoppingcar tbody tr:last-child{
+    height:50px;
+    font-size:20px;
+    color:#c8192e;
+    font-weight: bolder;
+}
+
+.shoppingcar tfoot tr{
+    height:50px;
+    text-align: center;
+}
+.shoppingcar tfoot tr td:first-child {
+    background:#000;
+    text-align: right;
+    color:#fff;
+    font-size:16px;
+    padding-right:20px;
+    font-weight: bolder;
+}
+.shoppingcar tfoot tr td:last-child{
+    background:#c8192e;
+    color:#fff;
+    font-size:16px;
+    padding-right:20px;
+    font-weight: bolder;
+} 

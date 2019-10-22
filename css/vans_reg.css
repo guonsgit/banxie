@@ -1,0 +1,72 @@
+/*中间层背景*/
+.vans_reg{
+    height:650px;
+    background-color:#F1F2ED;
+}
+/*注册div*/
+.reg{
+    width:550px;
+    height:528px;
+    border:1px solid #c9caca;
+    background-color:#fff;
+    margin:0 auto;
+    margin-top:50px;
+    padding:0px 73px;
+}
+
+
+
+/*去除小圆点*/
+.reg ul{
+    list-style:none;
+}
+/*每个li的宽度*/
+.reg ul li{
+    width:400px;
+    margin-top:20px;
+}
+/*"用户注册"字体样式*/
+.reg ul h5{
+    font-weight:bolder;
+    color:#666;
+    font-size:25px;
+}
+.reg li input{
+    border:1px solid #ccc;
+}
+/*隐藏*/
+.reg li .vali_info{
+    visibility: hidden;  
+}
+/*设置输入框的大小，样式*/
+.reg li .input1{
+    width:400px;
+    height:60px;
+    padding:15px;
+    
+}
+.reg ul>li:last-child{
+    color:#666;
+    margin-top:10px;
+}
+/*验证码文字大小*/
+.reg li .btn1{
+    width:145px;
+    height:45px;
+    background-color:#000;
+    color:#fff;
+    border:0;
+    font-weight:bolder;
+}
+/*注册按钮样式*/
+ .reg li .btn2{
+    width:400px;
+    height:40px;
+    background-color:#C9192E;
+    border:0;
+    color:#fff;
+}
+.reg li .input2{
+    width:250px;
+    height:60px;
+}

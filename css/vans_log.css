@@ -1,0 +1,137 @@
+
+.second{
+    height:600px;
+    background-color:#F1F2ED;
+}
+.second .tabs{
+    width:500px;
+    height:480px;
+    border:1px solid #c9caca;
+   margin:0 auto;
+   margin-top:50px;
+   background:#fff;
+   padding:40px;
+   position:relative;
+}
+
+#tab{
+    list-style: none;
+    
+}
+#tab li{
+    float:left;
+    /* width:200px; */
+    font-size:25px;
+    padding:0 25px;
+   
+}
+#tab li  a{
+    color:#777;
+    font-weight:bolder;
+    
+}
+/*红色底部边框线*/
+
+ #red_border1{
+    border-bottom:2px solid red ;
+   
+ }
+ #red_border2{
+    border-bottom:2px solid red ;
+    display:none;
+ }
+ 
+/*设置用户登录、手机登录的div样式*/
+#content1 ,#content2{
+    width:400px;
+    height:390px;
+    position:absolute;
+    top:83px;
+    left:40px;
+    background:#fff;
+}
+.tab_tubiao{
+    margin-top:15px;
+}
+.tab_tubiao li{
+    float:left;
+    list-style:none;
+    cursor: pointer;
+}
+/*设置用户登录中小图标的样式*/
+.tab_tubiao li:not(:first-child){
+      margin-left:10px;     
+}
+.tab_tubiao li:not(:first-child){
+    background:#666;
+    padding:5px;
+}
+.tab_tubiao li:nth-child(2):hover{
+    background:green;
+}
+.tab_tubiao li:nth-child(3):hover{
+    background:red;
+}
+.tab_tubiao li:nth-child(4):hover{
+    background:rgb(0, 140, 255);
+}
+.tab_tubiao li:last-child:hover{
+    background:rgb(0, 140, 255);
+}
+/*设置用户、密码登录输入框的样式*/
+.user,.upwd{
+   width:350px;
+   height:50px; 
+   padding:10px;
+   margin-top:20px;
+}
+.leg{
+    width: 250px;
+    height: 50px;
+    line-height: 50px;
+    background:#C9192E;
+    font-size: 16px;
+    border: 0;
+    color:#fff;
+    margin-top:30px;
+    cursor: pointer;
+}
+.zhuce{
+    width:96px;
+    padding:13px;
+    border: 0;
+    background:#000;
+    color:#fff;
+    cursor: pointer;
+}
+
+
+/*手机快捷登录*/
+#content2 .yzm{
+    width:200px;
+    height:50px;
+    margin-top:20px;
+    padding:10px;
+}
+#content2 p{
+    margin-top:10px;
+}
+#content2 #app{
+    float:right;
+    position:absolute;
+   top:100px;
+   left:220px;
+} 
+/*设置“短信验证码的样式”*/
+.btn1{
+    padding:5px 15px;
+    background:#000;
+    color:#fff;
+    border:0;
+}
+#content2 .sj{
+    position:absolute;
+    top:163px;
+    left:220px;
+    text-align:center;
+}

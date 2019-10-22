@@ -1,0 +1,48 @@
+
+/*第二层*/
+/*设置第二层宽度样式*/
+.second{
+    width:1400px;
+    height:1500PX;
+    margin:0 auto;
+    background-color:#F1F2ED;
+
+}
+
+.second .detail{
+    background-color:#F1F2ED;
+    font-size:17px;
+    margin-right:50px;
+}
+/*设置多个图片浮动*/
+.second .new ul li{
+    list-style:none;
+    width:270px;
+    float:left;
+    margin-left:10px;
+    padding:2px;
+}
+.new h6{
+    font-weight:bolder;
+    margin-top:20px;
+    margin-bottom:25px;
+}
+.clear_float{
+    clear:both;
+}
+.pic_7{
+    width:92%;
+}
+.new span{
+    font-size:14px;
+    color:#666;
+}
+.new p{
+    margin-top:15px;
+}
+.new p a{
+    color: #589BC6;
+    margin-top:-10px;
+}
+
+

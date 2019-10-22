@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/bootstrap.css" />
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../css/vans_log.css" />
+    <script src="../js/vue.js"></script>
+</head>
+<body>
+    <div id="header_1"></div>
+    <div class="container-fulid">
+        <div class="second">
+            <table></table>
+         <div class="tabs">
+            <ul id="tab">
+                <li><h3> <a href="javascript:;"data-click="tab" data-id="content1" id="c1">用户名登录</a></h3>
+                <div id="red_border1"></div></li>
+                <li> <h3> <a href="javascript:;" data-click="tab" data-id="content2" id="c2">手机快捷登陆</a></h3>
+                    <div id="red_border2"></div></li>
+            </ul>
+            <div id="container">
+                <div id="content1">
+                   <input class="user" type="text" placeholder="手机号/用户名" id="in1" ><br>
+                   <input type="text" class="upwd" placeholder="登陆密码" id="in2"><br>
+                   <p> <a href=""> 忘记密码？</a></p>
+                   <button class="leg">立即登录</button>
+                   <button class="zhuce" onclick="reg()">注册</button>
+                   <ul class="tab_tubiao">
+                        <li>使用其他方法登录</li>
+                        <li><img src="../img/weixin.png"></li>
+                        <li><img src="../img/sina.png"></li>
+                        <li><img src="../img/qq.png"></li>
+                        <li><img src="../img/zhifubao.png"></li>
+                    </ul>
+                </div>
+                <div id="content2"  style="z-index:-9">
+                     <input type="text"class="user" placeholder="手机号"><br>
+                      <span>
+                           <input type="text" class="yzm" placeholder="填写验证码">
+                          <div id="app">
+                          <button class="btn1":disabled="timer>0" @click="change">{{text}}</button></div>
+                        </span>
+                     <input type="text" class="yzm" placeholder="填写验证码">
+                     <div class="sj">
+                        <div class="suijishu">
+                            <canvas width="100" height="40" id="check">
+                                您的浏览器不支持canvas标签！
+                            </canvas>
+                        </div>
+                        <span><a href="" class="">看不清楚？换一个</a> </span>
+                     </div>
+                     <p>
+                        <button  class="leg">立即登录</button>
+                        <button class="zhuce">注册</button>
+                    </p>
+                    <ul class="tab_tubiao">
+                            <li>使用其他方法登录</li>
+                            <li ><img src="../img/weixin.png"></li>
+                            <li><img src="../img/sina.png"></li>
+                            <li ><img src="../img/qq.png"></li>
+                            <li ><img src="../img/zhifubao.png"></li>
+                        </ul>
+                </div>
+            </div>
+      </div> 
+    </div>    
+        </div>
+        <div id="footer_1"></div> 
+</body>
+<script src="../js/jquery-1.11.3.js"></script>
+<script src="../js/header.js"></script>
+<script src="../js/footer.js"></script>
+<script src="../js/log.js"></script>
+<script src="../js/yanzhengma.js"></script>
+<script src="../js/logyanzheng.js"></script>
+</html>

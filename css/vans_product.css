@@ -1,0 +1,256 @@
+*{
+    margin:0;
+    padding:0;
+}
+/*父元素背景颜色*/
+#main{
+    background:#F1F2ED;
+    width:100%;
+    /* height:1000px; */
+    border:1px solid black;
+    margin:0 auto;
+    /* padding:0 100px; */
+}
+/* 第二层导航 */
+.second_dh{
+    height:100px;
+    border-bottom:1px dashed #ccc;
+    font-size:18px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom:40px;
+}
+.l_shouye{
+    line-height: 100px;
+    margin-left:50px;
+}
+.l_shouye span{
+    margin:0 5px;
+}
+/*右侧排序*/
+.r_paixu{
+     margin-right:200px;
+     line-height: 50px; 
+    width:230px;
+    height:50px;
+    margin-top:25px;
+    background:#fff;
+}
+.r_paixu span{
+    margin-left:15px;
+ /* position: relative */
+
+}
+
+
+/*搜索排序*/
+/* .search{
+    position: absolute;
+    right:0;
+   margin-left:100px;
+    margin-top:50px;
+   
+} */
+
+
+/*第三层大div*/
+.three_div{
+    width:1583px;
+    display:flex;
+    justify-content: space-around;
+    margin:0 auto;
+    margin-left:30px;
+}
+/*第三层左侧颜色*/
+.left_color{
+    width:450px;
+    height:1200px;
+    /* border:1px solid black; */
+    padding:0 20px; 
+    background:#fff;
+}
+
+
+
+/*第三层左侧尺码 颜色*/
+/*第三层左侧菜单栏*/
+li{
+  list-style:none;
+}
+.open{
+    border-top:1px dotted #666;
+    border-bottom:1px dotted #666;
+    font-size:20px;
+    font-weight: bolder;
+    margin:20px 0;
+    padding:10px 0;
+}
+.open img{
+    float:right;
+    margin-top:8px;
+    cursor: pointer;
+}
+
+.openFead{
+   display:none !important;
+}
+
+/* 给.color 的ul加弹性布局*/
+.tree li ul{
+    display:flex;
+    flex-flow:wrap;
+}
+.tree ul li{
+    margin:19px 10px;   
+}
+.tree li ul li a{
+    border:1px solid #d1d1d1;
+    padding:10px 10px;
+    color:#589BC6;
+    font-weight: bolder;
+}
+.tree li ul li a:hover{
+    color:red;
+}
+
+/* 第三层右侧鞋 */
+.right_xie{
+    width:1100px;
+    padding:0 20px;
+}
+/* 右侧li的样式 */
+   
+.right_xie li{
+    width:308px;
+    height:450px;
+    list-style:none; 
+     margin:0 20px; 
+}
+.right_xie li span{
+    width:90px;
+    /* border:1px solid red; */
+    color:#fff;
+    background:#000;
+    float: right;
+    margin-top: -45px;
+    padding:3px 3px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+/* */
+.right_xie .pic_items{
+  width:300px;
+  height:300px;
+  position:relative; 
+}
+.right_xie .kuaisu{
+    position: absolute;
+    top: 240px;
+    left: 50%;
+    width: 180px;
+    height: 50px;
+    line-height: 50px;
+    background: #c8192e;
+    font-size: 16px;
+    /* font-family: "Franklin-Roman","冬青黑体","microsoft yahei"; */
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin: -5px 0 0 -80px;
+     display: none;  
+     z-index: 9; 
+}
+.right_xie .pic_items .pic_sm{
+    width:100%;
+    position:absolute;
+    z-index:2;
+}
+/* 鼠标悬浮显示第二张图片以及购买框*/
+.right_xie .pic_items .pic_md{
+    width:100%;
+    position:absolute;
+     display:none;   
+}
+.right_xie .pic_items:hover .pic_md{
+    display:block; 
+    z-index: 3;
+}
+.right_xie .pic_items:hover a{
+    display:block; 
+}
+.right_xie ul{
+    /* width:1000px; */
+    display:flex;
+    flex-flow:wrap;
+}
+.right_xie  h5{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 17px;
+    font-weight: bolder;
+}
+.right_xie p{
+    font-weight: bolder;
+    text-align: center;
+    margin-top:25px;
+}
+.chakangd{
+    width: 162px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    background: #000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin: 20px auto;
+    cursor: pointer;
+    /* margin-bottom:50px; */
+}
+/*设置“换一批”按钮*/
+.hyp{
+    width:1100px;
+    height:400px;
+    margin:0 auto; 
+    margin-bottom:30px;
+}
+.hyp ul{
+    display:flex;
+    flex-wrap: wrap;
+}
+.hyp .hyp_z li{
+    width:245px;
+    height:245px;
+    text-align: center;
+    margin:10px 10px;
+}
+.hyp_z li img{
+    width:100%;
+}
+.btn_hyp{
+    /* width:160px;
+    height:30px;
+    line-height: 30px;
+    border:1px solid #000;
+    background:#000;
+    color:#fff; */
+    width: 162px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    background: #000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    margin: 80px auto;
+  
+}
+.hyp p{
+    margin:0;
+}
+.hyp .hyp_title{
+    color:#666;  
+}
+

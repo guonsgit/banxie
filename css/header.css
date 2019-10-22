@@ -1,0 +1,351 @@
+*{
+    margin:0;
+    padding:0;
+}
+@media screen and (max-width: 1400px) { 
+    body{ 
+    width: 1400px; 
+    } 
+    } 
+    /*取消a标签的下划线*/
+a{
+    text-decoration:none !important;
+}
+
+/*设置a标签的颜色为灰色*/
+.my_gary a{
+    color:#8a8a8a;
+    font-size:20px;
+    font-weight:bold;
+   
+}
+/*设置第一层header的宽度*/
+.header{
+    width:1400px;
+    margin:0 auto;
+    height:150px;
+}
+/*设置购物车、注册登录、搜索店铺 鼠标悬浮后的a标签的颜色*/
+.my_gary a:hover{
+    color:darkred;
+    text-decoration:none;
+}
+.header img{
+    margin-top: -15px;
+    float: left;
+}
+/*设置导航栏位置*/
+.header .my_daohang{
+   display:flex;
+   list-style:none;
+   justify-content: flex-end;
+
+}
+/*设置导航栏的li的样式*/
+.header .my_daohang li{
+    margin-right:50px;
+}
+/*设置小黑条*/
+ .head_black{
+    width:100%;
+    height:15px;
+    background:black;
+    margin-top:20px;
+    margin:0 auto;
+}
+/*设置小图标背景*/
+.tubiao_1,.tubiao_2,.tubiao_3{
+    width:16px;
+    height:16px;
+    margin-top: -20px;
+    margin-left: -20px;
+    background-repeat:no-repeat;
+}
+.header .tubiao_2{
+    background-position:0px 0px;
+    background:url(../img/user.png); 
+}
+.header .tubiao_1{
+    background-position:0px 0px;
+    background:url(../img/shoppingcar.png);
+   
+}
+.header .tubiao_3{
+    background-position:0px 0px;
+    background:url(../img/position.png);
+}
+
+/*设置菜单栏样式，布局*/
+.my_caidan{
+  display:flex;
+   list-style:none;
+   justify-content: flex-end;
+   padding-top:40px;
+}
+
+.my_caidan li{
+    height:50px;
+}
+/*设置菜单栏a标签悬浮后的颜色*/
+/*设置菜单栏的字体，加粗*/
+.my_font{
+    font-weight:bold;
+    color:#000;
+    margin-left:40px;
+  
+}
+/*设置菜单栏鼠标悬浮后的颜色、下划线*/
+.my_font:hover{
+    color:darkred;
+    text-decoration:none;
+}
+/*设置菜单栏中搜素vans字体的大小*/
+.my_input{
+    padding:0px 5px;
+    width:110px;
+    height:20px;
+    margin-left:10px;  
+    margin-right:50px;
+    font-size:12px;
+}
+/*设置菜单悬浮样式*/
+.header .guanyu{
+    height:200px;
+    width:100%;
+    background:#000;
+    position:absolute;
+    color:#fff;
+    left: 0px;
+    top: 110px;
+    display:none;
+    font-weight:bolder;
+    z-index:999;
+    /* margin-top:10px; */
+}
+
+
+
+/*设置菜单栏位置*/
+.header .guanyu ul {
+    display:flex;
+    list-style:none;
+    justify-content: space-around;
+    text-align: center;
+}
+.header .guanyu li{
+   margin-top:50px;
+   position: relative;
+}
+.header .guanyu li:nth-child(3)>a{
+    color:#589BC6;
+}
+.header .guanyu li a{
+    color:#fff;
+    
+}
+.guanyu_1:hover .guanyu{
+    display:block;
+}
+
+.jiantou .jiantou_img{
+    position: absolute;
+}
+/*设置“音乐人....悬浮颜色”*/
+.guanyu ul li .music:hover{
+    color:red;
+}
+
+/*设置热门悬浮*/
+.header .remen{
+    height:150px;
+    width:100%;
+    background:#000;
+    position:absolute;
+    color:#fff;
+    left: 0px;
+    top: 110px;
+    display:none;
+    font-weight:bolder;
+    z-index:999;
+}
+.header .remen ul{
+    display:flex;
+    list-style:none;
+    justify-content: space-around;
+    text-align: center;
+}
+.remen li{
+    margin-top:50px;
+}
+
+.remen_1:hover .remen{
+    display:block;
+}
+/*设置男子悬浮*/
+.header .nanzi,.nvzi{
+    height:380px;
+    width:100%;
+    background:#000;
+    position:absolute;
+    color:#fff;
+    left: 0px;
+    top: 110px;
+    display:none;
+    z-index:999;
+}
+.nanzi_1:hover .nanzi{
+    display:block;
+}
+.nanzi table{
+    margin-top:50px;
+    margin-left:50px;
+}
+.nanzi table td{
+    width:300px;
+    height:30px;
+}
+.nanzi img{
+    position:absolute;
+    right:160px;
+    top:83px;
+}
+.nanzi table  td a{
+   display:block;
+   color:#589BC6;
+}
+.nanzi table  td a:hover{
+   color:red;
+ }
+
+/*设置女子菜单*/
+  .header .nvzi{
+    height:380px;
+    width:100%;
+    background:#000;
+    position:absolute;
+    color:#fff;
+    position:absolute;
+    left:0;
+    top:110px;
+    z-index:999;
+}
+.nvzi_1:hover .nvzi{
+    display:block;
+}
+.nvzi table{
+    margin-top:50px;
+    margin-left:50px;
+}   
+.nvzi table td{
+    width:300px;
+    height:30px;
+}  
+.nvzi img{
+    position:absolute;
+    right:160px;
+    top:83px;
+}
+.nvzi table  td a{
+    display:block;
+    color:#589BC6;
+ }
+ .nvzi table  td a:hover{
+    color:red;
+  }
+ /*设置童鞋样式*/
+ header .tongxie{
+    height:380px;
+    width:100%;
+    background:#000;
+    position:absolute;
+    color:#fff;
+    position:absolute;
+    left:0;
+    top:110px;
+    display:none; 
+    z-index:999;
+}
+.tongxie_1_1:hover .tongxie{
+    display:block;
+}
+.tongxie ul{
+    list-style:none;
+   
+}
+.tongxie li{
+  float:left;
+  margin-top:50px;
+  margin-left:200px;
+}
+.tongxie a{
+    color:#fff;
+    font-weight: bold;
+}
+.tongxie img{
+    position:absolute;
+    top: 83px;
+    right: 160px;
+}
+.tongxie_1:hover .tongxie{
+    display:block;
+}
+/*设置“更多产品”样式*/
+header .gengduo{
+    height:130px;
+    width:100%;
+    background:#000;
+    position:absolute;
+    color:#fff;
+    position:absolute;
+    left:0;
+    top:110px;
+    display:none;
+    z-index:999;
+}
+.gengduo ul li{
+    list-style: none; 
+    float:left;
+    width:350px;
+    text-align:center;
+    line-height:130px;
+}
+.gengduo ul li a{
+    color:#fff;
+    font-weight:bolder;
+}
+.gengduo_1:hover .gengduo{
+    display:block;
+}
+/*设置“客服...”固定定位*/
+.kc{
+    position:fixed;
+    right:0;
+    bottom:100px;
+    z-index:999;
+}
+   .kefu,.ques{
+       width:60px;
+       height:60px;
+       background-color:#c8192e;
+       padding:5px 0 0 0px;
+       text-align:center;
+      
+   }
+   .ques{
+    background-color:#000;
+   }
+  .kefu,.ques p{
+      color:#fff;
+      font-size:13px;
+      font-weight:bolder;
+  }
+ #toTop img{
+    width:55px;
+    height:55px;
+    background-color:#000;
+    padding:10px;
+    /* display: none; */
+} 
+
+
+

@@ -1,0 +1,35 @@
+.ssf{
+    width:1583px;
+    margin:0 auto;
+    background-image:url("../img/image_ssf.jpg")
+}
+.ssf li{
+    list-style:none;
+    width:1444px;
+    margin:0 auto;
+}
+.ssf li .pic{
+    visibility: hidden;
+}
+
+.ssf_pic li img{
+    float:left;
+    margin-left:82px;
+    margin-bottom:70px;
+}
+.clear{
+    clear:both;
+}
+.ssf_cw{
+    opacity:0.4;
+}
+.ssf_cw:hover{
+    opacity:1;
+}
+.ssf_xy{
+    opacity:0.4; 
+}
+.ssf_xy:hover{
+    opacity:1;
+}
+
